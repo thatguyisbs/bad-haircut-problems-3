@@ -1,0 +1,8 @@
+.hero-image{
+    background-image:url("./images/220213.jpeg");
+    background-position: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}

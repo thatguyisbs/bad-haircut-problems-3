@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="website.js" type="text/javascript"></script>
+<style>
+/* start of footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+/* end of footer */
+/* start of navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ffffff13;
+}
+
+.active {
+  background-color: #000000;
+}
+/* end of navigation bar */
+/* image hover start */
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* image hover end */
+/* new hover thing start */
+#half-box-container {   
+overflow:auto;
+width: 100%
+}
+
+#half-box-left, #half-box-right {
+  width: 50%; 
+  margin:5px; 
+  padding: 1em;
+  -moz-box-shadow: -3px 3px 3px #cccccc;
+  -webkit-box-shadow: -3px 3px 3px #cccccc;
+  box-shadow: -3px 3px 3px #cccccc;
+}
+
+#half-box-left {   
+  float:left; 
+}
+#half-box-right {   
+  float:right; 
+}
+
+#half-box-content
+{
+    left: 30px;
+    top: 0;
+    color: #39275b;
+    font-size: 100%;
+}
+/* new hover thing end */
+
+</style>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li style="float:right"><a class="active" href="about.html">About</a></li>
+</ul>
+
+</style>
+<title>prevent bad haircuts</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body background="images/this bg image.jfif"s>
+    <section class="hero-image">
+        <h1 class="hero-text">
+            <i>
+                prevent bad haircuts
+            </i>
+        </h1>
+    </section>
+    <!-- two column start -->
+    <section class="two-column">
+      <div class="image">
+        <img src="images/How to prevent getting Bad Haircuts/new stylist.jfif" alt="">
+      </div>
+      <div class="information">
+        <h1 style="color: #cccccc;">
+          Consider Looking for a New Stylist 
+        </h1>
+        <p style="color: #cccccc;">
+          Seeking out another stylist after getting a bad cut from your tried-and-true should come with some serious preparation, investigation, and certainty that the move will bring relief. “Realize that not every hairdresser has the same aesthetic style, training, or experience,” says Seidel. “Hairdressers are very specialized nowadays and gravitate towards certain types of hairstyling, similar to tattoo artists.” 
+
+          But how do you know which new hairdresser will be right for you? “Ask people you know with good haircuts and similar hair as your own where and who they go to,” suggests Hernandez. Or Google what you’re looking for: “[Search] best hairdresser in your town or nearby.” When you think you’ve found someone good Hernandez recommends checking their social media or website—asking yourself, does this match my hair type? My aesthetic? —and reading their bio, making note of the education they’ve received. “The more education they’ve had, the better,” she says. “That’s usually a good sign that they put some studying into their craft.”  
+        </p>
+      </div>
+    </section>
+    <!-- two column end -->
+    <br><br>
+    <!-- two column start -->
+    <section class="two-column">
+      <div class="information">
+        <h1 style="color: #cccccc;">
+          Talk with your stylist. 
+        </h1>
+        <p style="color: #cccccc;">
+          Telling your stylist you're unhappy with a haircut can be intimidating, but open and honest communication is important, especially when you end up with a haircut you don't like. "If you're unhappy with a haircut, I recommend asking your stylist if you can come back in and have them look at the haircut for you," says Emily Cable, a professional hairstylist formerly at Nine Zero One salon in Los Angeles. "I would nicely show them the areas you aren't happy with and ask if they can make it not so choppy or smooth the area out a bit." 
+
+          Ferrara agrees. "Most salons have a one-week policy for a client to have an adjustment to their cut or color free of charge," she says. "Don't feel timid about going back. As stylists, we really want you to be a happy customer because we value you and also want you to be our walking billboard." 
+        </p>
+      </div>
+      <div class="image">
+        <img src="images/How to prevent getting Bad Haircuts/talking with stylist.jfif" alt="">
+      </div>
+    </section>
+    <!-- two column end -->
+    <br><br>
+    <!-- two column start -->
+    <section class="two-column">
+      <div class="information">
+        <h1 style="color: #cccccc;">
+          Find a new reference picture. 
+        </h1>
+        <p style="color: #cccccc;">
+          Photos when getting a haircut are an absolute necessity. Not only can they prevent a bad haircut from happening to begin with, but they can also help guide your stylist when they're trying to fix a bad crop. "Always make sure you show your stylist a photo of your hair goals, so they can visually see what you are asking for," says Cable. 
+        </p>
+      </div>
+      <div class="information">
+
+      </div>
+    </section>
+     <!-- trying this out  start-->
+    <div class="hero-slider">
+      <ul class="slider-image">
+          <li class="hero-image active" style="background-image: url(images/big-hair.webp)"></li>
+          <li class="hero-image" style="background-image: url(images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjEwNzQtMDhhLWt2a2N6ZG4xLmpwZw.webp)"></li>
+      </ul>
+  </div>
+
+  <!-- trying this out end-->
+    <br><br><br><br><br>
+    <!-- two column end -->
+    <!-- footer start -->
+    <div class="footer">
+      <p>made by a student from otahuhu college <br> Jordyn Dunshea</p>
+    </div>
+    <!-- footer end -->
+
+</body>
+
+</html>
